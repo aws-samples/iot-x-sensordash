@@ -1,0 +1,1225 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Metadata": {
+        "AWS::CloudFormation::Designer": {
+            "cf8515cb-04a6-4c56-8a07-0372dd66d17f": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": -180,
+                    "y": 60
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "4c833104-0194-4531-8ddd-d0a2c674b225": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 790,
+                    "y": 190
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "34963842-f1df-4adf-9741-eadffc6de76d": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 610,
+                    "y": 230
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "8c4e94ac-fef5-4c8b-ad50-1f52b7034a93": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 620,
+                    "y": 60
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "a2c3dd49-67a5-4859-922c-8f0eae3f817b": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 440,
+                    "y": 220
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "4bad6a7c-1398-4ab2-9261-572e6fa4f81c": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 340,
+                    "y": 160
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "f46a1a64-d0e8-4a17-b10a-0338e47ef53e": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 40,
+                    "y": 160
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "9723af36-f72f-4003-9bea-74c342955873": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 200,
+                    "y": 270
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "b2a17cc8-0086-4ca4-8f80-43a984d8489b": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": -370,
+                    "y": 160
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "fd8c4ce7-e121-4ce0-8897-867cdcde8447": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": -190,
+                    "y": 160
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "97d67ba9-e13d-44b4-afc2-e62cd22b07cc": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 60,
+                    "y": 60
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "ffa39533-ec8f-4806-8b2c-7b66807db999": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": -50,
+                    "y": 60
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "98a7d8ad-9e65-4e15-b6c8-08df1ffa4cac": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 170,
+                    "y": 60
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "d5af8882-9d7b-4a16-8254-317861bba55e": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 300,
+                    "y": 60
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "188c9a85-5c49-4437-984f-be3b031c7f45": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 210,
+                    "y": 380
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "be955c3e-16c7-417c-9e04-005be844697f": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 210,
+                    "y": 460
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "def930d8-5e00-42c4-a771-0cae7050292f": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 450,
+                    "y": 480
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "2237b5c2-c9c0-4d6c-8160-431b7bfaeb0e": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 620,
+                    "y": 470
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "3b799f39-5e58-4a4e-8c6c-09e3bdacdc14": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 610,
+                    "y": 320
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "9f0bf132-3c93-448c-aa11-5459355a6647": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 520,
+                    "y": 380
+                },
+                "z": 0,
+                "embeds": []
+            }
+        }
+    },
+    "Resources": {
+        "ServiceProfileDefault": {
+            "Type": "AWS::IoTWireless::ServiceProfile",
+            "Properties": {
+                "Name": "DefaultServiceProfile",
+                "LoRaWAN": {
+                    "AddGwMetadata": true
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "cf8515cb-04a6-4c56-8a07-0372dd66d17f"
+                }
+            }
+        },
+        "TimestreamDB": {
+            "Type": "AWS::Timestream::Database",
+            "Properties": {
+                "DatabaseName": {
+                    "Fn::Join": [
+                        "",
+                        [
+                            {
+                                "Ref": "AWS::StackName"
+                            },
+                            "_db"
+                        ]
+                    ]
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "f46a1a64-d0e8-4a17-b10a-0338e47ef53e"
+                }
+            }
+        },
+        "Grafana": {
+            "Type": "AWS::Grafana::Workspace",
+            "Properties": {
+                "AccountAccessType": "CURRENT_ACCOUNT",
+                "Name": {
+                    "Ref": "AWS::StackName"
+                },
+                "AuthenticationProviders": [
+                    "AWS_SSO"
+                ],
+                "PermissionType": "CUSTOMER_MANAGED",
+                "RoleArn": {
+                    "Fn::GetAtt": [
+                        "GrafanaServiceRole",
+                        "Arn"
+                    ]
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "b2a17cc8-0086-4ca4-8f80-43a984d8489b"
+                }
+            }
+        },
+        "GrafanaServiceRole": {
+            "Type": "AWS::IAM::Role",
+            "Properties": {
+                "AssumeRolePolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Principal": {
+                                "Service": "grafana.amazonaws.com"
+                            },
+                            "Action": "sts:AssumeRole",
+                            "Condition": {
+                                "StringEquals": {
+                                    "aws:SourceAccount": {
+                                        "Ref": "AWS::AccountId"
+                                    }
+                                },
+                                "StringLike": {
+                                    "aws:SourceArn": {
+                                        "Fn::Join": [
+                                            "",
+                                            [
+                                                "arn:aws:grafana:",
+                                                {
+                                                    "Ref": "AWS::Region"
+                                                },
+                                                ":",
+                                                {
+                                                    "Ref": "AWS::AccountId"
+                                                },
+                                                ":/workspaces/*"
+                                            ]
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Policies": [
+                    {
+                        "PolicyName": "GrafanaServicePolicy",
+                        "PolicyDocument": {
+                            "Version": "2012-10-17",
+                            "Statement": [
+                                {
+                                    "Effect": "Allow",
+                                    "Action": [
+                                        "timestream:CancelQuery",
+                                        "timestream:DescribeDatabase",
+                                        "timestream:DescribeTable",
+                                        "timestream:ListDatabases",
+                                        "timestream:ListMeasures",
+                                        "timestream:ListTables",
+                                        "timestream:ListTagsForResource",
+                                        "timestream:Select",
+                                        "timestream:SelectValues",
+                                        "timestream:DescribeScheduledQuery",
+                                        "timestream:ListScheduledQueries"
+                                    ],
+                                    "Resource": [
+                                        {
+                                            "Fn::Join": [
+                                                "",
+                                                [
+                                                    {
+                                                        "Fn::GetAtt": [
+                                                            "TimestreamDB",
+                                                            "Arn"
+                                                        ]
+                                                    },
+                                                    "/*"
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "Fn::Join": [
+                                                "",
+                                                [
+                                                    {
+                                                        "Fn::GetAtt": [
+                                                            "TimestreamDB",
+                                                            "Arn"
+                                                        ]
+                                                    },
+                                                    "/table/*"
+                                                ]
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Effect": "Allow",
+                                    "Action": "timestream:DescribeEndpoints",
+                                    "Resource": "*"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "fd8c4ce7-e121-4ce0-8897-867cdcde8447"
+                }
+            }
+        },
+        "DefaultDestination": {
+            "Type": "AWS::IoTWireless::Destination",
+            "Properties": {
+                "Expression": {
+                    "Ref": "DefaultIoTRule"
+                },
+                "ExpressionType": "RuleName",
+                "Name": "DefaultDestination",
+                "RoleArn": {
+                    "Fn::GetAtt": [
+                        "DefaultDestinationRole",
+                        "Arn"
+                    ]
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "4c833104-0194-4531-8ddd-d0a2c674b225"
+                }
+            }
+        },
+        "DefaultDestinationRole": {
+            "Type": "AWS::IAM::Role",
+            "Properties": {
+                "AssumeRolePolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Principal": {
+                                "Service": "iotwireless.amazonaws.com"
+                            },
+                            "Action": "sts:AssumeRole"
+                        }
+                    ]
+                },
+                "Policies": [
+                    {
+                        "PolicyName": "DefaultDestinationRolePolicy",
+                        "PolicyDocument": {
+                            "Version": "2012-10-17",
+                            "Statement": [
+                                {
+                                    "Effect": "Allow",
+                                    "Action": [
+                                        "iot:Publish"
+                                    ],
+                                    "Resource": {
+                                        "Fn::Join": [
+                                            "",
+                                            [
+                                                "arn:aws:iot:",
+                                                {
+                                                    "Ref": "AWS::Region"
+                                                },
+                                                ":",
+                                                {
+                                                    "Ref": "AWS::AccountId"
+                                                },
+                                                ":topic/$aws/rules/",
+                                                {
+                                                    "Ref": "DefaultIoTRule"
+                                                }
+                                            ]
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Effect": "Allow",
+                                    "Action": [
+                                        "iot:DescribeEndpoint"
+                                    ],
+                                    "Resource": "*"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "8c4e94ac-fef5-4c8b-ad50-1f52b7034a93"
+                }
+            }
+        },
+        "DefaultIoTRule": {
+            "Type": "AWS::IoT::TopicRule",
+            "Properties": {
+                "TopicRulePayload": {
+                    "RuleDisabled": "false",
+                    "AwsIotSqlVersion": "2015-10-08",
+                    "Sql": "select *",
+                    "Actions": [
+                        {
+                            "Lambda": {
+                                "FunctionArn": {
+                                    "Fn::GetAtt": [
+                                        "DefaultDecoderLambda",
+                                        "Arn"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "34963842-f1df-4adf-9741-eadffc6de76d"
+                }
+            }
+        },
+        "DefaultDecoderLambda": {
+            "Type": "AWS::Lambda::Function",
+            "Properties": {
+                "Code": {
+                    "ZipFile": "exports.handler = async (event) => {\n  console.log(event);\n  return 'Hello from Lambda!';\n};\n"
+                },
+                "Role": {
+                    "Fn::GetAtt": [
+                        "DefaultDecoderLambdaRole",
+                        "Arn"
+                    ]
+                },
+                "Runtime": "nodejs18.x",
+                "Handler": "index.handler",
+                "Environment": {
+                    "Variables": {
+                        "TIMESTREAM_DATABASE_NAME": {
+                            "Ref": "TimestreamDB"
+                        },
+                        "TIMESTREAM_TABLE_NAME": {
+                            "Ref": "TimestreamDataTable"
+                        },
+                        "ACCOUNT_ID": {
+                            "Ref": "AWS::AccountId"
+                        }
+                    }
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "a2c3dd49-67a5-4859-922c-8f0eae3f817b"
+                }
+            }
+        },
+        "DefaultDecoderLambdaRole": {
+            "Type": "AWS::IAM::Role",
+            "Properties": {
+                "AssumeRolePolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Principal": {
+                                "Service": "lambda.amazonaws.com"
+                            },
+                            "Action": "sts:AssumeRole"
+                        }
+                    ]
+                },
+                "Policies": [
+                    {
+                        "PolicyName": "DefaultDecoderLambdaPolicy",
+                        "PolicyDocument": {
+                            "Version": "2012-10-17",
+                            "Statement": [
+                                {
+                                    "Effect": "Allow",
+                                    "Action": [
+                                        "timestream:CancelQuery",
+                                        "timestream:DescribeDatabase",
+                                        "timestream:DescribeTable",
+                                        "timestream:ListDatabases",
+                                        "timestream:ListMeasures",
+                                        "timestream:ListTables",
+                                        "timestream:ListTagsForResource",
+                                        "timestream:WriteRecords"
+                                    ],
+                                    "Resource": [
+                                        {
+                                            "Fn::Join": [
+                                                "",
+                                                [
+                                                    {
+                                                        "Fn::GetAtt": [
+                                                            "TimestreamDB",
+                                                            "Arn"
+                                                        ]
+                                                    },
+                                                    "/*"
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "Fn::Join": [
+                                                "",
+                                                [
+                                                    {
+                                                        "Fn::GetAtt": [
+                                                            "TimestreamDB",
+                                                            "Arn"
+                                                        ]
+                                                    },
+                                                    "/table/*"
+                                                ]
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Effect": "Allow",
+                                    "Action": "timestream:DescribeEndpoints",
+                                    "Resource": "*"
+                                },
+                                {
+                                    "Effect": "Allow",
+                                    "Action": "iotwireless:ListTagsForResource",
+                                    "Resource": {
+                                        "Fn::Join": [
+                                            "",
+                                            [
+                                                "arn:aws:iotwireless:",
+                                                {
+                                                    "Ref": "AWS::Region"
+                                                },
+                                                ":",
+                                                {
+                                                    "Ref": "AWS::AccountId"
+                                                },
+                                                ":WirelessDevice/*"
+                                            ]
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Effect": "Allow",
+                                    "Action": "logs:CreateLogGroup",
+                                    "Resource": {
+                                        "Fn::Join": [
+                                            "",
+                                            [
+                                                "arn:aws:logs:",
+                                                {
+                                                    "Ref": "AWS::Region"
+                                                },
+                                                ":",
+                                                {
+                                                    "Ref": "AWS::AccountId"
+                                                },
+                                                ":*"
+                                            ]
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Effect": "Allow",
+                                    "Action": [
+                                        "logs:CreateLogStream",
+                                        "logs:PutLogEvents"
+                                    ],
+                                    "Resource": [
+                                        {
+                                            "Fn::Join": [
+                                                "",
+                                                [
+                                                    "arn:aws:logs:",
+                                                    {
+                                                        "Ref": "AWS::Region"
+                                                    },
+                                                    ":",
+                                                    {
+                                                        "Ref": "AWS::AccountId"
+                                                    },
+                                                    ":log-group:/aws/lambda/*:*"
+                                                ]
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "4bad6a7c-1398-4ab2-9261-572e6fa4f81c"
+                }
+            }
+        },
+        "DeviceProfileAU915ClassC": {
+            "Type": "AWS::IoTWireless::DeviceProfile",
+            "Properties": {
+                "Name": "AU915-OTAA-C",
+                "LoRaWAN": {
+                    "SupportsClassB": false,
+                    "SupportsClassC": true,
+                    "MacVersion": "1.0.3",
+                    "RegParamsRevision": "RP002-1.0.1",
+                    "RxDelay1": 1,
+                    "RxDrOffset1": 0,
+                    "RxDataRate2": 8,
+                    "RxFreq2": 9233000,
+                    "MaxEirp": 13,
+                    "MaxDutyCycle": 0,
+                    "RfRegion": "AU915",
+                    "SupportsJoin": true,
+                    "Supports32BitFCnt": true
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "97d67ba9-e13d-44b4-afc2-e62cd22b07cc"
+                }
+            }
+        },
+        "DeviceProfileAU915ClassA": {
+            "Type": "AWS::IoTWireless::DeviceProfile",
+            "Properties": {
+                "Name": "AU915-OTAA-A",
+                "LoRaWAN": {
+                    "SupportsClassB": false,
+                    "SupportsClassC": false,
+                    "MacVersion": "1.0.3",
+                    "RegParamsRevision": "RP002-1.0.1",
+                    "RxDelay1": 1,
+                    "RxDrOffset1": 0,
+                    "RxDataRate2": 8,
+                    "RxFreq2": 9233000,
+                    "MaxEirp": 13,
+                    "MaxDutyCycle": 0,
+                    "RfRegion": "AU915",
+                    "SupportsJoin": true,
+                    "Supports32BitFCnt": true
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "ffa39533-ec8f-4806-8b2c-7b66807db999"
+                }
+            }
+        },
+        "DeviceProfileAS923ClassA": {
+            "Type": "AWS::IoTWireless::DeviceProfile",
+            "Properties": {
+                "Name": "AS923-OTAA-A",
+                "LoRaWAN": {
+                    "SupportsClassB": false,
+                    "SupportsClassC": false,
+                    "MacVersion": "1.0.3",
+                    "RegParamsRevision": "RP002-1.0.1",
+                    "RxDelay1": 1,
+                    "RxDrOffset1": 0,
+                    "RxDataRate2": 2,
+                    "RxFreq2": 9232000,
+                    "MaxEirp": 5,
+                    "MaxDutyCycle": 0,
+                    "RfRegion": "AS923-1",
+                    "SupportsJoin": true,
+                    "Supports32BitFCnt": true
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "98a7d8ad-9e65-4e15-b6c8-08df1ffa4cac"
+                }
+            }
+        },
+        "DeviceProfileAS923ClassC": {
+            "Type": "AWS::IoTWireless::DeviceProfile",
+            "Properties": {
+                "Name": "AS923-OTAA-C",
+                "LoRaWAN": {
+                    "SupportsClassB": false,
+                    "SupportsClassC": true,
+                    "MacVersion": "1.0.3",
+                    "RegParamsRevision": "RP002-1.0.1",
+                    "RxDelay1": 1,
+                    "RxDrOffset1": 0,
+                    "RxDataRate2": 2,
+                    "RxFreq2": 9232000,
+                    "MaxEirp": 5,
+                    "MaxDutyCycle": 0,
+                    "RfRegion": "AS923-1",
+                    "SupportsJoin": true,
+                    "Supports32BitFCnt": true
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "d5af8882-9d7b-4a16-8254-317861bba55e"
+                }
+            }
+        },
+        "TimestreamDataTable": {
+            "Type": "AWS::Timestream::Table",
+            "Properties": {
+                "DatabaseName": {
+                    "Ref": "TimestreamDB"
+                },
+                "MagneticStoreWriteProperties": {
+                    "EnableMagneticStoreWrites": true
+                },
+                "TableName": "sensor_data",
+                "RetentionProperties": {
+                    "MagneticStoreRetentionPeriodInDays": 3650,
+                    "MemoryStoreRetentionPeriodInHours": 1
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "9723af36-f72f-4003-9bea-74c342955873"
+                }
+            }
+        },
+        "TimestreamListTable": {
+            "Type": "AWS::Timestream::Table",
+            "Properties": {
+                "DatabaseName": {
+                    "Ref": "TimestreamDB"
+                },
+                "MagneticStoreWriteProperties": {
+                    "EnableMagneticStoreWrites": true
+                },
+                "TableName": "sensor_list",
+                "RetentionProperties": {
+                    "MagneticStoreRetentionPeriodInDays": 3650,
+                    "MemoryStoreRetentionPeriodInHours": 1
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "188c9a85-5c49-4437-984f-be3b031c7f45"
+                }
+            }
+        },
+        "ListLambdaRole": {
+            "Type": "AWS::IAM::Role",
+            "Properties": {
+                "AssumeRolePolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Principal": {
+                                "Service": "lambda.amazonaws.com"
+                            },
+                            "Action": "sts:AssumeRole"
+                        }
+                    ]
+                },
+                "Policies": [
+                    {
+                        "PolicyName": "ListLambdaPolicy",
+                        "PolicyDocument": {
+                            "Version": "2012-10-17",
+                            "Statement": [
+                                {
+                                    "Effect": "Allow",
+                                    "Action": [
+                                        "timestream:CancelQuery",
+                                        "timestream:DescribeDatabase",
+                                        "timestream:DescribeTable",
+                                        "timestream:ListDatabases",
+                                        "timestream:ListMeasures",
+                                        "timestream:ListTables",
+                                        "timestream:ListTagsForResource",
+                                        "timestream:WriteRecords",
+                                        "timestream:Select",
+                                        "timestream:SelectValues",
+                                        "timestream:DescribeScheduledQuery",
+                                        "timestream:ListScheduledQueries"
+                                    ],
+                                    "Resource": [
+                                        {
+                                            "Fn::Join": [
+                                                "",
+                                                [
+                                                    {
+                                                        "Fn::GetAtt": [
+                                                            "TimestreamDB",
+                                                            "Arn"
+                                                        ]
+                                                    },
+                                                    "/*"
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "Fn::Join": [
+                                                "",
+                                                [
+                                                    {
+                                                        "Fn::GetAtt": [
+                                                            "TimestreamDB",
+                                                            "Arn"
+                                                        ]
+                                                    },
+                                                    "/table/*"
+                                                ]
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Effect": "Allow",
+                                    "Action": "timestream:DescribeEndpoints",
+                                    "Resource": "*"
+                                },
+                                {
+                                    "Effect": "Allow",
+                                    "Action": [
+                                        "iotwireless:ListTagsForResource",
+                                        "iotwireless:GetWirelessDevice"
+                                    ],
+                                    "Resource": {
+                                        "Fn::Join": [
+                                            "",
+                                            [
+                                                "arn:aws:iotwireless:",
+                                                {
+                                                    "Ref": "AWS::Region"
+                                                },
+                                                ":",
+                                                {
+                                                    "Ref": "AWS::AccountId"
+                                                },
+                                                ":WirelessDevice/*"
+                                            ]
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Action": [
+                                        "iot:DescribeThing"
+                                    ],
+                                    "Resource": {
+                                        "Fn::Join": [
+                                            "",
+                                            [
+                                                "arn:aws:iot:",
+                                                {
+                                                    "Ref": "AWS::Region"
+                                                },
+                                                ":",
+                                                {
+                                                    "Ref": "AWS::AccountId"
+                                                },
+                                                ":thing/*"
+                                            ]
+                                        ]
+                                    },
+                                    "Effect": "Allow"
+                                },
+                                {
+                                    "Effect": "Allow",
+                                    "Action": "logs:CreateLogGroup",
+                                    "Resource": {
+                                        "Fn::Join": [
+                                            "",
+                                            [
+                                                "arn:aws:logs:",
+                                                {
+                                                    "Ref": "AWS::Region"
+                                                },
+                                                ":",
+                                                {
+                                                    "Ref": "AWS::AccountId"
+                                                },
+                                                ":*"
+                                            ]
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Effect": "Allow",
+                                    "Action": [
+                                        "logs:CreateLogStream",
+                                        "logs:PutLogEvents"
+                                    ],
+                                    "Resource": [
+                                        {
+                                            "Fn::Join": [
+                                                "",
+                                                [
+                                                    "arn:aws:logs:",
+                                                    {
+                                                        "Ref": "AWS::Region"
+                                                    },
+                                                    ":",
+                                                    {
+                                                        "Ref": "AWS::AccountId"
+                                                    },
+                                                    ":log-group:/aws/lambda/*:*"
+                                                ]
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "be955c3e-16c7-417c-9e04-005be844697f"
+                }
+            }
+        },
+        "ListLambda": {
+            "Type": "AWS::Lambda::Function",
+            "Properties": {
+                "Code": {
+                    "ZipFile": "exports.handler = async (event) => {\n  console.log(event);\n  return 'Hello from Lambda!';\n};\n"
+                },
+                "Role": {
+                    "Fn::GetAtt": [
+                        "ListLambdaRole",
+                        "Arn"
+                    ]
+                },
+                "Runtime": "nodejs18.x",
+                "Handler": "index.handler",
+                "Environment": {
+                    "Variables": {
+                        "TIMESTREAM_DATABASE_NAME": {
+                            "Ref": "TimestreamDB"
+                        },
+                        "TIMESTREAM_TABLE_NAME": {
+                            "Ref": "TimestreamListTable"
+                        },
+                        "ACCOUNT_ID": {
+                            "Ref": "AWS::AccountId"
+                        }
+                    }
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "def930d8-5e00-42c4-a771-0cae7050292f"
+                }
+            }
+        },
+        "ThingEventRule": {
+            "Type": "AWS::IoT::TopicRule",
+            "Properties": {
+                "TopicRulePayload": {
+                    "RuleDisabled": "false",
+                    "AwsIotSqlVersion": "2015-10-08",
+                    "Sql": "SELECT * from '$aws/events/thing/#'",
+                    "Actions": [
+                        {
+                            "Lambda": {
+                                "FunctionArn": {
+                                    "Fn::GetAtt": [
+                                        "ListLambda",
+                                        "Arn"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "2237b5c2-c9c0-4d6c-8160-431b7bfaeb0e"
+                }
+            }
+        },
+        "GenericSensorRule": {
+            "Type": "AWS::IoT::TopicRule",
+            "Properties": {
+                "TopicRulePayload": {
+                    "RuleDisabled": "true",
+                    "AwsIotSqlVersion": "2015-10-08",
+                    "Sql": "SELECT * from '+/tx'",
+                    "Actions": [
+                        {
+                            "Timestream": {
+                                "DatabaseName": {
+                                    "Fn::Join": [
+                                        "",
+                                        [
+                                            {
+                                                "Ref": "AWS::StackName"
+                                            },
+                                            "_db"
+                                        ]
+                                    ]
+                                },
+                                "TableName": {
+                                    "Ref": "TimestreamDataTable"
+                                },
+                                "Dimensions": [
+                                    {
+                                        "Name": "DevEui",
+                                        "Value": "${topic(1)}"
+                                    }
+                                ],
+                                "RoleArn": {
+                                    "Fn::GetAtt": [
+                                        "TimestreamWriteRole",
+                                        "Arn"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "3b799f39-5e58-4a4e-8c6c-09e3bdacdc14"
+                }
+            }
+        },
+        "TimestreamWriteRole": {
+            "Type": "AWS::IAM::Role",
+            "Properties": {
+                "AssumeRolePolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Principal": {
+                                "Service": "iot.amazonaws.com"
+                            },
+                            "Action": "sts:AssumeRole"
+                        }
+                    ]
+                },
+                "Policies": [
+                    {
+                        "PolicyName": "TimestreamWritePolicy",
+                        "PolicyDocument": {
+                            "Version": "2012-10-17",
+                            "Statement": [
+                                {
+                                    "Sid": "VisualEditor0",
+                                    "Effect": "Allow",
+                                    "Action": "timestream:WriteRecords",
+                                    "Resource": {
+                                        "Fn::GetAtt": [
+                                            "TimestreamDataTable",
+                                            "Arn"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Sid": "VisualEditor1",
+                                    "Effect": "Allow",
+                                    "Action": "timestream:DescribeEndpoints",
+                                    "Resource": "*"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "9f0bf132-3c93-448c-aa11-5459355a6647"
+                }
+            }
+        }
+    },
+    "Outputs": {
+        "GrafanaURL": {
+            "Description": "The URL of the dashboard",
+            "Value": {
+                "Fn::GetAtt": [
+                    "Grafana",
+                    "Endpoint"
+                ]
+            }
+        },
+        "DecoderLambdaName": {
+            "Description": "The name of the lambda decoder function",
+            "Value": {
+                "Ref": "DefaultDecoderLambda"
+            }
+        },
+        "ListLambdaName": {
+            "Description": "The name of the sensor list lambda function",
+            "Value": {
+                "Ref": "ListLambda"
+            }
+        },
+        "TimestreamDBName": {
+            "Description": "The name of the timestream database",
+            "Value": {
+                "Ref": "TimestreamDB"
+            }
+        },
+        "TimestreamDataTableName": {
+            "Description": "The name of the table which contains sensor data",
+            "Value": {
+                "Ref": "TimestreamDataTable"
+            }
+        },
+        "TimestreamListTableName": {
+            "Description": "The name of the table which contains the list of sensors",
+            "Value": {
+                "Ref": "TimestreamListTable"
+            }
+        }
+    }
+}
