@@ -253,7 +253,7 @@ grafana_url = "https://" + grafana_url
 
 #6. Create the Timestream DataSource in Grafana if it is not already created
 
-get_ds_response = requests.get(grafana_url + "/api/datasources", headers = {"Authorization": "Bearer " + session_token}).text
+get_ds_response = requests.get(grafana_url + "/api/datasources", headers = {"Authorization": "Bearer " + session_token}, timeout = 120).text
 
 
 if 'message' in get_ds_response:
@@ -287,7 +287,8 @@ if ds_uid == "":
     create_ds_response = requests.post(
                                                 grafana_url + '/api/datasources', 
                                                 json = create_ds_request,
-                                                headers = {"Authorization": "Bearer " + session_token}
+                                                headers = {"Authorization": "Bearer " + session_token},
+                                                timeout = 120
                                             ).text
 
     create_ds_response_json = json.loads(create_ds_response)
@@ -305,7 +306,7 @@ if ds_uid == "":
 #7. Create the dashboards
 
 #get a list of all the folders in Grafana
-get_folder_response = requests.get(grafana_url + "/api/folders", headers = {"Authorization": "Bearer " + session_token}).text
+get_folder_response = requests.get(grafana_url + "/api/folders", headers = {"Authorization": "Bearer " + session_token}, timeout = 120).text
 get_folder_response_json = json.loads(get_folder_response)
 grafana_folders = {}
 for grafana_folder in get_folder_response_json:
@@ -320,7 +321,7 @@ for dashboard_folder in dashboard_folders:
         folder_uid = ""
         #create a folder with the same name if it doesn't exist
         if dashboard_folder not in grafana_folders:
-            create_folder_response = requests.post(grafana_url + '/api/folders',  json = {"title" : dashboard_folder}, headers = {"Authorization": "Bearer " + session_token})
+            create_folder_response = requests.post(grafana_url + '/api/folders',  json = {"title" : dashboard_folder}, headers = {"Authorization": "Bearer " + session_token}, timeout = 120)
             if create_folder_response.status_code != 200:
                 print("Failed to create folder: " + dashboard_folder)
                 exit()
@@ -360,7 +361,7 @@ for dashboard_folder in dashboard_folders:
                 dashboard_uid = dashboard_json['uid']
 
                 #check if a dashboard with the same uid exists
-                get_dashboard_response = requests.get(grafana_url + "/api/dashboards/uid/" + dashboard_uid, headers = {"Authorization": "Bearer " + session_token})
+                get_dashboard_response = requests.get(grafana_url + "/api/dashboards/uid/" + dashboard_uid, headers = {"Authorization": "Bearer " + session_token}, timeout = 120)
                 #create dashboard if it doesn't exist
                 if get_dashboard_response.status_code == 404:
                     #id has to be null when creating new dashboard
@@ -371,7 +372,7 @@ for dashboard_folder in dashboard_folders:
                         "message" : "",
                         "overwrite" : False
                     }
-                    create_dashboard_response = requests.post(grafana_url + "/api/dashboards/db", json = create_dashboard_request, headers = {"Authorization": "Bearer " + session_token})
+                    create_dashboard_response = requests.post(grafana_url + "/api/dashboards/db", json = create_dashboard_request, headers = {"Authorization": "Bearer " + session_token}, timeout = 120)
                     if create_dashboard_response.status_code == 200:
                         print("Created dashboard: " + dashboard_filename)
                     else:
