@@ -54,7 +54,8 @@ Now that the solution deployment is complete, it is time to start using it! The 
     - Service Profile - select default
     - Destination - select default
     - Add tags 'Vendor' and 'Model' so that their uplink data can be decoded with the relevant decoder
--If your sensor can directly publish to IoT Core using MQTT, create a thing and copy the certificated to your sensor so that it can connect to IoT Core. Your sensor will need to publish to a topic in the format of 
+
+- If your sensor can directly publish to IoT Core using MQTT, create a thing and copy the certificated to your sensor so that it can connect to IoT Core. Your sensor will need to publish to a topic in the format of 
 
 ```
     <sensor id>/tx 
