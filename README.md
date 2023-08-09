@@ -35,7 +35,7 @@ In the background, AWS IAM Identity Center provides the single sign on for the A
 - Open the AWS cloudshell and run the command below:
 
 ```
-git clone git@ssh.gitlab.aws.dev:akalanka/lorawandash.git && cd lorawandash && python3 setup_stack.py
+git clone git@github.com:aws-samples/iot-x-sensordash.git && cd lorawandash && python3 setup_stack.py
 ```
 This step will clone the repo, deploy the cloudformation template and preload the template dashboards to the Amazon Managed Grafana instance.
 - Navigate to Amazon Managed Grafana in the AWS console web page and assign a user from IAM Identity Center. Make the user an admin/editor/viewer as required
