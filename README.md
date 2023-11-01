@@ -1,5 +1,7 @@
 ## IoT Accelerator - IoT Sensor Dashboard
 
+#### Objective
+
 This is an accelerator for creating an IoT solution to view data from sensors, predominantly LoRaWAN sensors, using AWS IoT services. It should be noted that since this is an accelerator, it is designed to be a starting point of your solution build journey rather than a complete solution. However, this accelerator does create all the AWS resources required to interface with LoRaWAN gateways, ingest, decode & store LoRaWAN messages, along with template dashboards for the supported types of sensors. It also supports ingesting data from any MQTT sensor which can connect and publish to IoT Core directly. Therefore, it can be used to cater to certain basic use cases with minimal customization.
 
 This accelerator utilizes the following key AWS services:
@@ -28,7 +30,7 @@ In the background, AWS IAM Identity Center provides the single sign on for the A
  - Amazon Timestream stores the decoded data from sensors
  - Amazon Managed Grafana provides a flexible, no-code builder for the user to build a custom dashboard. This instnace also comes prepackaged with template dashboards for all the supported sensors which can be used out of the box for basic use cases.
 
-#### Architecture
+#### Sample Architecture
 ![Architecture](iot-x-sensordash.drawio.png)
 #### Deployment:
 - If this is a new AWS account, enable IAM Identity Center and create user/s
@@ -43,7 +45,18 @@ This step will clone the repo, deploy the cloudformation template and preload th
 
 More elaborate deployment instructions can be found here in the ![Deployment Guide](DeploymentGuide.pdf)
 
-#### Next steps:
+#### AWS Best practices
+
+It should be noted that since this is an accelerator only, that there are several aspects that need to be covered prior to proceeding to a large scale producion solution.
+ - Resilience - This architecture is built using AWS managed services which operate at a region level. Therefore theoretically there would be no impact to the services in the event of an individual AZ failure in the region. However in the event of a outage of the deployed AWS region, this accelerator would be deemed non functional. In cases where uptime guarantees require high availability, this archtecture should be updated to accomodate multi region failover.
+
+ - Scalability - This accelerator utilizes managed services such as IoT Core, Timestream and Amazon Managed Grafana. Check and verify the AWS quotas for each service to determine if the service ceilings of each of the services are within requirements.
+
+ - Security - This accelerator deploys services using a cloud formation template on your AWS account. These services and associated rles are provisioned with the least privilege principle to maximize security. No EC2 instances, Subnets, VPCs etc. are deployed in this architecture
+
+ - Operations - This accelerator is intended to be deployed on a per customer account basis. In the case of large scale deployment to hundereds, perhaps thousands of customers, it is important to identify if central management of these deployments are required. If this is the case, follow AWS well architected and best practices guides to build the monitoring capability to operate at scale to minimize operational overhead.
+
+#### Benefits & Next steps:
 
 Now that the solution deployment is complete, it is time to start using it! The following steps can be followed to rollout a typical IoT dashboarding solution:
 
@@ -55,7 +68,7 @@ Now that the solution deployment is complete, it is time to start using it! The 
     - Destination - select default
     - Add tags 'Vendor' and 'Model' so that their uplink data can be decoded with the relevant decoder
 
-- If your sensor can directly publish to IoT Core using MQTT, create a thing and copy the certificated to your sensor so that it can connect to IoT Core. Your sensor will need to publish to a topic in the format of 
+- If your sensor can directly publish to IoT Core using MQTT, create a thing and copy the certificate to your sensor so that it can connect to IoT Core. Your sensor will need to publish to a topic in the format of 
 
 ```
     <sensor id>/tx 
