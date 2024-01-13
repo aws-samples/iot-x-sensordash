@@ -1106,7 +1106,7 @@
                                     ]
                                 },
                                 "TableName": {
-                                    "Ref": "TimestreamDataTable"
+                                    "Ref": "TimestreamDataTableName"
                                 },
                                 "Dimensions": [
                                     {
