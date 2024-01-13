@@ -33,7 +33,7 @@ exports.handler = async (event) => {
   }
   //find the ARN for the wireless device
   const getCommand = new GetWirelessDeviceCommand({ Identifier: event.thingName, IdentifierType: "ThingName"});
-  const getResponse = {}
+  var getResponse = {}
   try{
     getResponse = await wirelessClient.send(getCommand);  
   }catch(e){}
