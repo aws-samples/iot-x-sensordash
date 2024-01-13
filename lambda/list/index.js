@@ -24,9 +24,11 @@ const dbWriteClient = new TimestreamWriteClient({ region: process.env.AWS_REGION
 const wirelessClient = new IoTWirelessClient({ region: process.env.AWS_REGION  });
 const dbReadClient = new TimestreamQueryClient({ region: process.env.AWS_REGION });
 
+const sleepNow = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
 
 exports.handler = async (event) => {
   
+  await sleepNow(5000)
   console.log(event)
   if(event.eventType === undefined || event.thingName === undefined || event.operation === undefined){
     return;

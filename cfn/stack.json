@@ -1036,6 +1036,7 @@
                     ]
                 },
                 "Runtime": "nodejs18.x",
+                "Timeout": 30
                 "Handler": "index.handler",
                 "Environment": {
                     "Variables": {
