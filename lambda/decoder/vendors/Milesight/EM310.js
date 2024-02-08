@@ -20,21 +20,16 @@ module.exports = function(){
     //Payload format: [channel (1 byte), type (1 byte), value (n bytes),... <repeat>]
     var channelMap = {
         "1" : { 
-                "75" : {name: "battery", valueType: "uint8", scale: 1.5625 }
+                "75" : {name: "battery", valueType: "uint8", scale: 1.0 }
                 } ,
         "3" : { 
-                "67" : {name: "temperature", valueType: "int16", scale: 0.1}
+                "82" : {name: "distance", valueType: "uint16", scale: 1.0}
+                
             },
         "4" : { 
-                "68" : {name: "humidity", valueType: "uint8", scale: 0.5}
-            },
-        "5" : { 
-                "00" : {name: "water_leak", valueType: "uint8", scale: 1.0}, 
-                "c8" : { name: "counter" , valueType: "uint32", scale: 1.0}
-            },
-        "6" : { 
-                "00" : { name: "magnet_switch", valueType: "uint8", scale: 1.0}
-            }
+            "0" : {name: "position", valueType: "uint8", scale: 1.0}
+            
+        }
     }
     this.decode = function(bytes, port){
 
@@ -55,6 +50,14 @@ module.exports = function(){
                         case "int16":
                             
                             value = (bytes[i + 3] << 8) + bytes[i + 2]
+                            if(value >= 32768){
+                                value = 32768 - value;
+                            }
+                            i = i + 4;
+                            break;
+                        
+                        case "uint16":
+                            value = (bytes[i + 3] << 8) + bytes[i + 2];
                             i = i + 4;
                             break;
                         
